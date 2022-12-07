@@ -101,7 +101,7 @@ ${renderLicenseMessage(data)}`, (err) =>
 // TODO: Create a function to initialize app
 function init() {
     prompt(questions).then(data => {
-        writeToFile("generatedREADME.md", data);  
+        writeToFile("README.md", data);  
     })
 }
 
